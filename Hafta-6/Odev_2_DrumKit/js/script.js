@@ -69,6 +69,9 @@ document.addEventListener("DOMContentLoaded", function () {
       let audio = new Audio(button.audio);
       playSound(audio);
     }
+    else{
+      console.log("Hata")
+    }
    
   });
 
