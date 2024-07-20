@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       id: "button3",
       key: "d",
-      audio: "/Hafta-6/Odev_2_DrumKit/assests/sound/clap.wav",
+      audio: "/Hafta-6/Odev_2_DrumKit/assests/sound/hihat.wav",
     },
     {
       id: "button4",
