@@ -67,3 +67,9 @@ color: var(--font-color-1);
 .section-gray .section-content{
     background-color: var(--background-color-1);
 }
+
+hr {
+    opacity: 1;
+    margin: 35px 0;
+    border-top-color: var(--border-color-1);
+  }
