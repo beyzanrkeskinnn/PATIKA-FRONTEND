@@ -18,4 +18,12 @@
       selector: '.glightbox',
     })
     
+
+    var comment = new Swiper('#comments .swiper', {
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        type: 'bullets',
+      }
+    });
 })();

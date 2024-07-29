@@ -6,3 +6,7 @@
 @import './section/products.css';
 @import './section/photos.css';
 @import './section/ecosystem.css';
+@import './section/faq.css';
+@import './section/comments.css';
+@import './section/contact.css';
+@import './layout/footer.css';
