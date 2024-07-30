@@ -1,6 +1,9 @@
 #header{
     height: 80px;
     background-color: transparent;
+    display: flex;
+    align-items: center;
+    transition: all 250ms;
 }
 #header .container{
     display: flex;
@@ -32,3 +35,11 @@
    padding: 5px;
    cursor: pointer;
 }
+
+#header.header-scrolled {
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    height: 50px;
+    background-color: rgba(22, 22, 22, 0.8);
+    border-bottom: 1px solid var(--border-color-2);
+  }
