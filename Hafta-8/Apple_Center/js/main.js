@@ -1,7 +1,12 @@
 (function () {
     'use strict';
   
- 
+    AOS.init({
+      startEvent: 'load',
+      offset: 20,
+      once: true,
+    });
+  
 
   
     var camera = new Swiper('#camera .swiper', {
